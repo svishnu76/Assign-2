@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_spouse_name" label="Spouse name" language="en" table="x_272851_assign_2_assign_2">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_spouse_name</element>
+            <help/>
+            <hint/>
+            <label>Spouse name</label>
+            <language>en</language>
+            <name>x_272851_assign_2_assign_2</name>
+            <plural>Spouse names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-07 17:10:53</sys_created_on>
+            <sys_id>77b86c41378523003f44036973990ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Spouse name</sys_name>
+            <sys_package display_value="Assign 2" source="x_272851_assign_2">5456a0cd374523003f44036973990e01</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Assign 2">5456a0cd374523003f44036973990e01</sys_scope>
+            <sys_update_name>sys_documentation_x_272851_assign_2_assign_2_u_spouse_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-07 17:10:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

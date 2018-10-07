@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_country</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>validateEmailAddressOnSubmit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+  
+	//	Read the new value and assign it to the variable
+	var emailAddress = g_form.getValue('u_email_address') + "" ;
+	
+	//Check if the email is valid
+	if (isEmailValid(emailAddress)){
+		// Clear any error message
+		g_form.clearMessages();
+	}
+	else{
+		// Display the email address is invalid and stop the record submit
+		g_form.clearMessages();
+		g_form.addErrorMessage("Please enter a valid email address");
+		return false;
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-07 17:32:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d37d2c05378523003f44036973990e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>validateEmailAddressOnSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Assign 2" source="x_272851_assign_2">5456a0cd374523003f44036973990e01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assign 2">5456a0cd374523003f44036973990e01</sys_scope>
+        <sys_update_name>sys_script_client_d37d2c05378523003f44036973990e81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-07 17:32:05</sys_updated_on>
+        <table>x_272851_assign_2_assign_2</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

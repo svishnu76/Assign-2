@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_spouse_name</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-07 17:33:17</sys_created_on>
+        <sys_id>a0dd2045378523003f44036973990ef0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_spouse_name</sys_name>
+        <sys_package display_value="Assign 2" source="x_272851_assign_2">5456a0cd374523003f44036973990e01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Assign 2">5456a0cd374523003f44036973990e01</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a0dd2045378523003f44036973990ef0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-07 17:33:17</sys_updated_on>
+        <table>x_272851_assign_2_assign_2</table>
+        <ui_policy display_value="Spouse Name if Married">b1adac05378523003f44036973990ef7</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

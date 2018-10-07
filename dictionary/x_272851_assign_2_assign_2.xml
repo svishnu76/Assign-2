@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Assign 2" max_length="40" name="x_272851_assign_2_assign_2" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Country" max_length="40" name="u_country" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email address" max_length="40" name="u_email_address" type="string"/>
+        <element label="Married?" max_length="40" name="u_married" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile" max_length="40" name="u_mobile" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Spouse name" max_length="40" name="u_spouse_name" type="string"/>
+    </element>
+</database>
