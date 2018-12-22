@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b959b324db8e2300cce2fbefbf9619da" sys_domain="global" table="incident" version="3" view="All">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_journal_1</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-25 12:08:04</sys_created_on>
+            <sys_id>b159f324db8e2300cce2fbefbf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="d838b7e0db8e2300cce2fbefbf9619fa">b959b324db8e2300cce2fbefbf9619da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-25 12:08:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-25 12:08:04</sys_created_on>
+            <sys_id>3559f324db8e2300cce2fbefbf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="d838b7e0db8e2300cce2fbefbf9619fa">b959b324db8e2300cce2fbefbf9619da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-25 12:08:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-25 12:08:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b959b324db8e2300cce2fbefbf9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Assign 2" source="x_272851_assign_2">5456a0cd374523003f44036973990e01</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Assign 2">5456a0cd374523003f44036973990e01</sys_scope>
+            <sys_update_name>sys_ui_section_b959b324db8e2300cce2fbefbf9619da</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-25 12:08:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="All" name="All">d838b7e0db8e2300cce2fbefbf9619fa</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
